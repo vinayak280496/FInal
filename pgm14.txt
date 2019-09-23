@@ -18,7 +18,7 @@ namespace pgm14
             }
             Array.Sort(arr); 
             Array.Reverse(arr);  
-            Console.WriteLine("First Highest Value In Array " + arr[0]);
+            Console.WriteLine("Second Highest Value In Array " + arr[1]);
 
             foreach (var result in arr)
             {
