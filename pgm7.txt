@@ -24,8 +24,11 @@ namespace pgm7
             a = Convert.ToInt32(textBox1.Text);
             b = Convert.ToInt32(textBox2.Text);
             c = a + b;
-            label3.Text = "SUM :" + c;
+            textBox3.Text = c.ToString();
         }
+
     }
 }
+
+
 
